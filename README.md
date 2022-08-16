@@ -36,11 +36,7 @@ Machine Learning Models Used:
 
 ## Model Comparison
 In these 3 models, Logistic Regression model has the highest recall but the lowest precision, if the firm expects high recall, then this model is the best candidate. If the balance of recall and precision is the most important metric, then Random Forest is the ideal model. Since Random Forest has slightly lower recall but much higher precision than Logistic Regression, we recommend the Random Forest model. 
-![](Figures/model_comparison.png)
 
-## Recommendations Based on Modeling
-Below is our suggested recall plot. Note the threshold can be adjusted to reach higher recall.
-![](Figures/recommended_recall.png)
 
 ## Limitations
 1. Best model Random Forest can only detect 51% of default. 
